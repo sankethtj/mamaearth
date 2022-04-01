@@ -1,0 +1,61 @@
+#header{
+    color: white;
+    background-color: rgb(212,66,76);
+    font-size: 12px;
+    font-family: sans-serif;
+    line-height: 19.44px;
+    font-weight: 200px;
+}
+
+#logo{
+    height: 27.07px; 
+    width: 120px;
+    margin-left: 40px;
+}
+
+#header2{
+    display: flex;
+}
+
+#logo{
+    margin-right: 40px;
+}
+#headerbutton{
+    background-color: rgb(0,175,239);
+    color: white;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+#logincart{
+    display: flex;
+    margin: auto;
+}
+.fa-user{
+    color:rgb(0,175,239);
+}
+
+.fa-cart-shopping{
+    color:rgb(0,175,239);
+}
+
+#navbar{
+    cursor: pointer;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#navbar>div{
+    margin-right: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+}
+
+#firstrow{
+    display: grid;
+    grid-template-columns: repeat(3,1fr)
+
+    
+}
